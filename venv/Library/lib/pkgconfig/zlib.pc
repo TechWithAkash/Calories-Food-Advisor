@@ -1,0 +1,13 @@
+prefix=C:/END TO END ML PROJECTS/Calories Food Advisors/venv/Library
+exec_prefix=C:/END TO END ML PROJECTS/Calories Food Advisors/venv/Library
+libdir=C:/END TO END ML PROJECTS/Calories Food Advisors/venv/Library/lib
+sharedlibdir=C:/END TO END ML PROJECTS/Calories Food Advisors/venv/Library/lib
+includedir=C:/END TO END ML PROJECTS/Calories Food Advisors/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
